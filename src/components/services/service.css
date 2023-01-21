@@ -1,0 +1,121 @@
+#sercice{
+    margin-bottom: 100px;
+}
+#sercice .title{
+    margin-bottom: 50px;
+}
+#sercice .title h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    color:var(--rpara);
+    font-size: 27px;
+    display: inline-block;
+    color:var(--main-color); 
+    position: relative;
+}
+#sercice .title h2::after{
+    position: absolute;
+    content: '';
+    top: 89%;
+    left: 10%;
+    width: 70%;
+    height: 2px;
+    background-color: var(--main-color);
+}
+#sercice h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    color:var(--rpara);
+    font-size: 20px;
+}
+#sercice .cart{
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+#sercice .cart span{
+    font-size: 60px;
+    display: block;
+    color:var(--main-color);
+    justify-content: center;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+#sercice h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    color:var(--main-color);
+    font-size: 20px;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+#sercice p{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 16px;
+    font-weight: 400;
+    color:var(--rpara);
+    margin-bottom: 30px;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+#sercice a{
+    text-decoration: none;
+    color:var(--para)
+}
+#sercice a:hover h3{
+    color:white;
+}
+#sercice a:hover p{
+    color:white;
+}
+#sercice a:hover .cart{
+    background-color:var(--main-color) !important;
+}
+#sercice a:hover span{
+    color:white;
+}
+.card {
+    --bs-card-border-color: var(--main-color);
+}
+
+/* ======================Responsive================================= */
+
+@media (min-width:320px) and (max-width:575px){
+    #sercice p {
+        font-size: 14px;
+        margin-bottom: 7px;
+    }
+    #sercice {
+        margin-bottom: 62px;
+    }
+
+}
+@media (min-width:576px) and (max-width:767px){
+    #sercice p {
+        font-size: 15px;
+        text-align: justify;
+    }
+    #sercice h3 {
+        font-size: 19px;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+
+}
+@media (min-width:992px) and (max-width:1199px){
+
+}
+@media (min-width:1200px) and (max-width:1399px){
+
+}

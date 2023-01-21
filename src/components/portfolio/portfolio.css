@@ -1,0 +1,89 @@
+#portfolio{
+    margin-bottom: 80px;
+    margin-top: 40px;
+}
+#portfolio .title{
+    margin-bottom: 80px;
+}
+#portfolio .title h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 27px;
+    position: relative;
+    display: inline-block;
+    color:var(--main-color); 
+}
+#portfolio .title h2::after{
+    position: absolute;
+    content: '';
+    top: 89%;
+    left: 10%;
+    width: 70%;
+    height: 2px;
+    background-color: var(--main-color); 
+}
+#portfolio .protf-item h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color:var(--main-color);
+}
+#portfolio .protf-item p{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 14px;
+    font-weight: 400;
+    color:var(--rpara);
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+#portfolio .protf-item a{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: var(--main-color);
+    text-decoration: none;
+    color:white;
+    padding: 8px 64px;
+    border-radius: 5px;
+    transition: .4s;
+    border:1px solid var(--main-color);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+#portfolio .protf-item a:hover{
+    background-color: white;
+    color:var(--main-color);
+}
+
+/* ======================Responsive================================= */
+
+@media (min-width:320px) and (max-width:575px){
+    #portfolio .protf-item a {
+        padding: 8px 15px;
+    }
+}
+@media (min-width:576px) and (max-width:767px){
+    #portfolio .protf-item a {
+        padding: 8px 12px;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    #portfolio .protf-item a {
+        padding: 8px 12px;
+    }
+}
+@media (min-width:992px) and (max-width:1199px){
+    #portfolio .protf-item a {
+        padding: 8px 12px;
+    }
+}
+@media (min-width:1200px) and (max-width:1399px){
+
+}

@@ -1,0 +1,231 @@
+#qualification{
+    margin-bottom: 80px;
+}
+#qualification .title h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    color:var(--rpara);
+    font-size: 27px;
+    color:var(--main-color); 
+    display: inline-block;
+    position: relative;
+}
+#qualification .title h2::after{
+    position: absolute;
+    content: '';
+    top: 89%;
+    left: 10%;
+    width: 70%;
+    height: 2px;
+    background-color: var(--main-color);
+     
+}
+#qualification .category{
+    display: flex;
+    justify-content: center;
+}
+#qualification .category .item{
+        margin-right: 30px;
+        margin-top: 40px;
+}
+#qualification .category .item h4{
+     font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    color:var(--rpara);
+    font-size: 18px;
+    padding-left: 10px;
+    color: var(--week);
+}
+#qualification .category .item span:first-child{
+    font-size: 25px; 
+    padding-right: 5px;
+}
+#qualification .category .item .work{
+    font-size: 26px; 
+    padding-right: 5px;
+}
+#qualification .qua-item{
+    margin-top:65px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: royalblue; */
+}
+#qualification .qua-item .edu-item .edu {
+	text-align: right;
+	margin-bottom: 126px;
+}
+#qualification .qua-item .edu-item .edu h4{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    color:var(--main-color);
+    font-size: 17px;
+    margin: 0;
+}
+#qualification .qua-item .edu-item .edu p{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+    color:var(--week);
+    font-size: 14px;
+    margin: 0;
+    position: relative;
+}
+#qualification .qua-item .edu-item .edu span{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+    color:var(--week);
+    font-size: 14px;
+    margin: 0;
+}
+#qualification .qua-item::after {
+	position: absolute;
+	content: '';
+	width: 2px;
+	height: 90%;
+	background-color: var(--week);
+	top: -5%;
+	left: 55%;
+}
+
+#qualification .qua-item .edu p::before {
+	position: absolute;
+	content: '';
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: var(--week);
+	top: -92.7%;
+	left: 112.7%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+
+
+#qualification .work-item{
+    position: relative;
+}
+#qualification .work-item .work {
+	text-align: left;
+	padding-left: 50px;
+	margin-top: 92px;
+	padding-bottom: 38px;
+}
+
+#qualification .work-item .work h4{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    color:var(--main-color);
+    font-size: 17px;
+    margin: 0;
+}
+#qualification .work-item .work p{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+    color:var(--week);
+    font-size: 14px;
+    margin: 0;
+    position: relative;
+}
+#qualification .work-item .work span {
+    font-size: 14px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+    color:var(--week);
+}
+#qualification .work-item .edu span{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+    color:var(--week);
+    font-size: 14px;
+    margin: 0;
+}
+#qualification .work-item .work::before {
+	position: absolute;
+	content: '';
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: var(--week);
+	top: 16%;
+	left: 4%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+#qualification .work-item .work::after {
+	position: absolute;
+	content: '';
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: var(--week);
+	top: 50%;
+	left: 4%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+
+/* ======================Responsive================================= */
+
+@media (min-width:320px) and (max-width:575px){
+    #qualification .qua-item .edu-item .edu {
+        padding-right: 29px;
+    }
+    #qualification .work-item .work {
+        padding-left: 33px;
+        padding-bottom: 0px;
+    }
+    #qualification .qua-item .edu-item .edu h4 {
+        font-size: 15px;
+    }
+    #qualification .qua-item .edu-item .edu p {
+        font-size: 12px;
+    }
+    #qualification .qua-item .edu-item .edu span {
+        font-size: 12px;
+    }
+    #qualification .work-item .work h4 {
+        font-size: 15px;
+    }
+    #qualification .work-item .work span {
+        font-size: 12px;
+    }
+    #qualification .qua-item .edu p::before {
+        top: -41.7%;
+    }
+    #qualification .work-item .work {
+        padding-left: 33px;
+    }
+    #qualification .qua-item::after {
+        left: 50%;
+    }
+    #qualification .work-item .work p::before {
+        top: -57%;
+    }
+    #qualification .work-item .work::before {
+        top: 14%;
+        left: -9%;
+    }
+    #qualification .work-item .work::after {
+        top: 51%;
+        left: -9%;
+    }
+    
+}
+@media (min-width:576px) and (max-width:767px){
+
+}
+@media (min-width:768px) and (max-width:991px){
+
+}
+@media (min-width:992px) and (max-width:1199px){
+
+}
+@media (min-width:1200px) and (max-width:1399px){
+
+}

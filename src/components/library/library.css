@@ -1,0 +1,27 @@
+#library{
+    margin-top: 80px;
+}
+.nav-pills {
+    font-family: 'Source Code Pro', monospace;
+    margin-bottom: 30px;
+    color:var(--rpara);
+    --bs-nav-pills-link-active-bg: #10ac84;
+}
+
+/* ======================Responsive================================= */
+
+@media (min-width:320px) and (max-width:575px){
+    
+}
+@media (min-width:576px) and (max-width:767px){
+
+}
+@media (min-width:768px) and (max-width:991px){
+
+}
+@media (min-width:992px) and (max-width:1199px){
+
+}
+@media (min-width:1200px) and (max-width:1399px){
+
+}
